@@ -1,0 +1,15 @@
+html, body{
+    height: 100%;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+
+}
+
+.nav-bar{
+    grid-column: 1;
+    padding: 1vw;
+}

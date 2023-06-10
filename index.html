@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+</head>
+<body>
+
+    
+    <div class="nav-bar">   
+    <form action="submit" id="book-form">
+        <ul>
+
+            <li>        <label for="name">
+                <input type="text" id="name">
+            </label></li>
+            <li>      
+                <label for="author">
+                    <input type="text" id="author">
+                </label></li>
+            <li>        <label for="date-published">
+                <input type="text" id="date-published">
+            </label></li>
+            <li>        <label for="has-been-read">
+                <p>Have you read this before?</p>
+                <input type="checkbox" id="has-been-read">
+            </label></li>
+        </ul>
+
+  
+
+
+        <button form="book-form">+ New Book</button>
+
+    </form></div>
+
+
+    <div>
+        <div class="header">
+            <h1>Will's Library</h1>
+        </div>
+    
+        <div id="bookshelf">
+            <div class="shelf"></div>
+
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
